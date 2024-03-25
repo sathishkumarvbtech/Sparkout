@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOC Website</title>
+    <!--Bootsrap CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+</head>
+
+<body>
+    <header class="common-header p-2">
+        <div class="nav-brand">
+            <img src="/images/logo.png" alt="Logo">
+        </div>
+        <div class="dropdown">
+            <a class="btn custom-btn-3 common__btn--style2 dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                User name
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">My Referrak</a></li>
+                <li><a class="dropdown-item" href="#">Light mode</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="referral row">
+        <div class="Sider-bar col-lg-3 col-sm-12">
+            <ul>
+                <li class="nav-li"><a class="btn sidebar-btn common__btn--style1" href="/"><img
+                            src="/images/icons/user.png">Profile</a></li>
+                <li class="nav-li"><a class="btn common__btn--style2 active sidebar-btn" href="referral.html"><img
+                            src="/images/icons/combo shape.png">My Refferral</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="referral-content col-lg-8 col-sm-12 p-3">
+            <h4>My Referral</h4>
+            <p>Friends will receive notification allowing them to sign up</p>
+            <div class="d-flex justify-content-around link-and-media">
+                <div class="link-bar"><input type="text" value="https:refer_&_earn_01"><a href="#"
+                        class="btn copylink-btn common__btn--style1">Copy
+                        Link</a></div>
+                <div class="social-medias refferral-social justify-content-around d-flex">
+                    <a href="#"><img src="/images/icons/whatsapp.png" alt="Whatsapp"></a>
+                    <a href="#"><img src="/images/icons/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="/images/icons/gmail.png" alt="Email"></a>
+                    <a href="#"><img src="/images/icons/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="table m-3">
+                <table>
+                    <tr>
+                        <th>User Id</th>
+                        <th>Wallet Address</th>
+                        <th>Email Id</th>
+                        <th>Referral count</th>
+                    </tr>
+                    <tr>
+                        <td>3HTMTkV8LK</td>
+                        <td><a href="#">0xaEEdD4...D5c362</a></td>
+                        <td>antonyjames@gmail.com</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>8UTMTkV8LK</td>
+                        <td><a href="#">0xJKEdD4...D5c756</a></td>
+                        <td>antonyjames@gmail.com</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>7UIMTkV8LK</td>
+                        <td><a href="#">0xaTEdD4...D5c902</a></td>
+                        <td>antonyjames@gmail.com</td>
+                        <td>09</td>
+                    </tr>
+                    <tr>
+                        <td>6IUMTkV8LK</td>
+                        <td><a href="#">0xBEEdD4...D5c362</a></td>
+                        <td>antonyjames@gmail.com</td>
+                        <td>40</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

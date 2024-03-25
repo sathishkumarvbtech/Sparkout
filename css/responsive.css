@@ -1,0 +1,172 @@
+@media only screen and (min-width: 1640px) {
+
+    /* styles for browsers larger than 1440px; */
+    .leverage-container {
+        position: relative;
+    }
+
+    .leverage-content {
+        width: 450px;
+    }
+
+    .leverage-img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .leverage-content {
+        width: 450px;
+    }
+
+    .leverage-img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    /* styles for browsers smaller than 990px; */
+    .leverage-img {
+        display: none;
+    }
+
+    .leverage-content {
+        width: 100%;
+    }
+
+    .vision {
+        margin: 0 0 30px 10px;
+    }
+
+    .partner {
+        width: 130px;
+    }
+
+    .nav-custom_flex {
+        margin: 0;
+    }
+
+    .nav-item:hover::after {
+        transform: scaleX(0);
+    }
+
+    .custom-btn {
+        margin-top: 20px;
+    }
+
+    .sale-info img {
+        height: 280px;
+    }
+
+}
+
+@media screen and (max-width:960px) {
+    .Sider-bar {
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .common-header {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .nav-brand,
+    .nav-btn {
+        padding: 20px;
+    }
+
+    .time div {
+        width: 50px;
+    }
+
+    .time span {
+        font-size: 1.3rem;
+    }
+
+    .time {
+        font-size: 8px;
+    }
+
+    .values {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Sider-btn {
+        margin-bottom: 20px;
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    .save {
+        text-align: center;
+    }
+
+    .table {
+        margin: 10px 0 !important;
+    }
+
+    .table table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    .link-and-media {
+        flex-direction: column;
+    }
+
+    .refferral-social {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .link-bar {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .hero h2 {
+        font-size: 1.7rem;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer div {
+        margin-bottom: 30px;
+    }
+
+    .read-btn {
+        margin: 0 7px;
+    }
+
+    .item {
+        margin: 0 0 20px 0;
+    }
+
+    .vision-img,
+    .mission-img {
+        width: 100%;
+    }
+
+    .sale-info img {
+        display: none;
+    }
+
+}
